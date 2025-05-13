@@ -13,7 +13,7 @@ vim.keymap.set("i", "<D-s>", "<Esc>:w<CR>", { noremap = true }) -- save in inser
 
 --undo command z
 vim.keymap.set("n", "<D-z>", "u", { noremap = true }) -- undo save in normal mode
-vim.keymap.set("i", "<D-z>", "<Esc>u", { noremap = true }) -- undo save in insert mode
+vim.keymap.set("i", "<D-z>", "<Esc>ui", { noremap = true }) -- undo save in insert mode
 --redo command z
 vim.keymap.set("n", "<D-Z>", "<C-r>", { noremap = true })
-vim.keymap.set("i", "<D-Z>", "<Esc><C-r>", { noremap = true }) -- save in insert mode
+vim.keymap.set("i", "<D-Z>", "<Esc><C-r>i", { noremap = true }) -- save in insert mode
